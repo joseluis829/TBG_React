@@ -4,6 +4,7 @@ import './App.css';
 import StopWatch from "./components/StopWatch";
 import NameForm1 from "./components/NameForm1";
 import MyFancyForm from "./components/MyFancyForm";
+import AppEx from "./components/AppEx";
 
 class App extends Component {
   render() {
@@ -30,6 +31,7 @@ class App extends Component {
         />
         <h2>Multiple Selections</h2>
         <MyFancyForm />
+        <AppEx />
       </div>
     );
   }
